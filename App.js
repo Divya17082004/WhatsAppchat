@@ -8,7 +8,7 @@ import BottomTabs from "./src/navigation/BottomTabs";
 
 import ContactsScreen from "./src/screens/ContactsScreen";
 
-import chatScreen from "./src/screens/chatScreen";
+import ChatScreen from "./src/screens/ChatScreen";
 const Stack = createNativeStackNavigator();
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
 
         <Stack.Screen name="Contacts" component={ContactsScreen} />
 
-        <Stack.Screen name="chat" component={chatScreen} />
+        <Stack.Screen name="chat" component={ChatScreen} />
         
 
       </Stack.Navigator>
